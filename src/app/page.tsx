@@ -4,10 +4,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
-      <Link href="/multi-step-wizard" className="text-white font-medium">
+    <div className="flex flex-col gap-y-4 h-screen bg-slate-600 p-6">
+      <Link
+        href="/multi-step-wizard"
+        className="font-medium hover:underline text-white"
+      >
         Multi Step Wizard Component
       </Link>
-    </>
+    </div>
   );
 }
