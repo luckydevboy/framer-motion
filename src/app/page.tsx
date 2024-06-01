@@ -11,8 +11,16 @@ export default function Home() {
       >
         Multi Step Wizard Component
       </Link>
+
       <Link href="/parallax" className="font-medium hover:underline text-white">
         Parallax
+      </Link>
+
+      <Link
+        href="/scroll-animation"
+        className="font-medium hover:underline text-white"
+      >
+        Scroll Animation
       </Link>
     </div>
   );
